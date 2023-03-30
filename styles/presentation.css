@@ -1,0 +1,144 @@
+.presentation{
+    padding-top: 150px;
+}
+
+#presentation-subtitle{
+    margin-left: -3px;
+    margin-bottom: 40px;
+}
+
+
+
+.presentation-img{
+    position: relative;
+}
+
+.presentation-img img{
+    width: 100%;
+    height: 550px;
+}
+
+.presentation-img-item {
+    font-family: 'Manrope', sans-serif;
+    position: absolute;
+    display: block;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+    padding: 10px 20px;
+    left: 47px;
+    top: 50px;
+    background-color: mediumblue;
+    color: gold;
+    border-radius: 100px;
+}
+
+.presentation-img p + p{
+    position: absolute;
+    height: 46px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+    top: 410px;
+    left: 50px;
+    letter-spacing: -0.03em;
+    color: gold;
+}
+
+.presentation-img p + p + p{
+    position: absolute;
+    height: 39px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    top: 461px;
+    left: 50px;
+    letter-spacing: -0.03em;
+    color: gold;
+}
+
+.presentation-button{
+    padding-bottom: 150px;
+}
+
+.presentation-button a{
+    display: block;
+    border: 1px solid darkviolet;
+    max-width: 582px;
+    height: 153px;
+    background: darkviolet;
+    border-radius: 10px;
+    margin-top: 80px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 153px;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #000000;
+}
+
+.presentation-button a:hover{
+    background: #000000;
+    color: darkviolet;
+}
+
+
+
+
+@media (max-width: 1199px){
+    
+    #presentation-subtitle{
+        margin-bottom: 53px;
+    }
+
+    .presentation-img img{
+        width: 100%;
+        height: 445px;
+        object-fit: cover;
+        border-radius: 24px; 
+    }
+
+    .presentation-img-item {
+        font-size: 16px;
+        line-height: 22px;
+        padding: 8px 16px;
+        left: 35px;
+        top: 40px;
+        border-radius: 80px;
+    }
+}
+
+
+
+@media (max-width: 767px){
+
+    .presentation{
+        padding-top: 100px;
+    }
+
+    #presentation-subtitle{
+        margin-bottom: 34px;
+    }
+
+    .presentation-img{
+        
+        
+    }
+
+    .presentation-img img{
+          
+    }
+
+    .presentation-img-item {
+        font-size: 13px;
+        line-height: 18px;
+        padding: 6px 19.5px;
+        left: 33px;
+        top: 30px;
+        border-radius: 64px;
+    }
+
+    
+}

@@ -1,0 +1,82 @@
+
+.contacts{
+    box-sizing: border-box;
+    min-width: 1400px;
+    background: #000000;
+}
+
+.contacts-box{
+    height: 717px;
+    background: #191C19;
+    border-radius: 30px;
+    position: relative;
+}
+
+.contacts-social{
+    width: 567px;  
+}
+
+#contacts-social-subtitle {
+    font-size: 60px;
+    line-height: 60px;
+    padding-top: 100px;
+    margin-bottom: 60px;
+    color: gold;
+}
+
+.contacts-social input{
+    font-family: 'IBM Plex Mono', monospace;
+    display: block;
+    font-size: 22px;
+    line-height: 29px;
+    padding: 15px 250px 15px 40px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    background: #3B3D3B;
+    border-radius: 1000px;
+    border: none;
+}
+
+
+.contacts-name{
+    margin-bottom: 26px;
+}
+
+.contacts-email{
+    margin-bottom: 60px;
+}
+
+.contacts-btn{
+    font-family: 'IBM Plex Mono', monospace;
+    display: block;
+    display: inline-block;
+    background-color: darkviolet;
+    width: 453px;
+    line-height: 29px;
+    padding: 20px;
+    font-size: 22px;
+    letter-spacing: -0.03em;
+    color: #000000;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.contacts-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+
+
+@media (max-width: 1199px){
+
+}
+
+
+
+@media (max-width: 767px){
+
+}

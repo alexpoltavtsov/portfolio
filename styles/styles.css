@@ -1,0 +1,85 @@
+@import "./header.css";
+@import "./presentation.css";
+@import "./description.css";
+@import "./service.css";
+@import "./contacts.css";
+@import "./footer.css";
+
+
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+
+.container{
+    width: 1150px;
+    margin: 0 auto;
+}
+
+
+
+main{
+    min-width: 1400px;
+    background-color: #000000;
+}
+
+h2{
+    Height: 72px;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 72px;
+    letter-spacing: -0.03em;
+    color: darkviolet;
+}
+
+
+@media (max-width: 1199px) {
+
+    .container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: aqua;
+    }
+
+    h2{
+        Height: 59px;
+        font-size: 45px;
+        line-height: 59px;  
+    }
+}
+
+
+
+
+@media (max-width: 767px) {
+
+    .container {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+        background-color: coral;
+    }
+
+    h2{
+        width: 100%;
+        Height: 78px;
+        font-size: 30px;
+        line-height: 39px;  
+    }
+
+}
+
+@media (max-width: 500px){
+
+    h2{
+        width: 268px;
+          
+    }
+}
+
+
+

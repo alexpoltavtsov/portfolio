@@ -1,0 +1,92 @@
+#description-subtitle{
+    margin-left: -2px;
+    margin-bottom: 138px;
+    color: gold;
+}
+
+.description-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.description-items{
+    width: 570px;
+    margin-bottom: 100px;
+
+}
+
+.description-items:last-child{
+    margin-bottom: 150px;
+}
+
+.description-item{
+    width: 570px;
+    height: 46px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+    margin-bottom: 15px;
+    letter-spacing: -0.03em;
+    color: darkviolet;
+    position: relative;
+}
+
+.description-item:before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: -60px;
+    width: 45px;
+    height: 44px;
+    justify-content: center;
+    border: 1px solid darkviolet;
+    border-radius: 10px;
+    background-color: darkviolet;
+    background-image: url('../resources/logo-html.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.java:before{
+    background-image: url('../resources/logo-java.png');
+}
+
+.libraries:before{
+    background-image: url('../resources/logo-libraries.png');
+}
+
+.mobile:before{
+    background-image: url('../resources/logo-mobile.png');
+}
+
+.description-items .libraries{
+    height: 138px;
+}
+
+.description-items .mobile{
+    height: 138px;
+    
+}
+
+.description-items p{
+    width: 570px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    margin-left: -2px;
+    letter-spacing: -0.03em;
+    color: gold;
+} 
+
+
+
+@media (max-width: 1199px){
+
+}
+
+
+
+@media (max-width: 767px){
+
+}
