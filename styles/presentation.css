@@ -94,7 +94,7 @@
     }
 
     .presentation-img img{
-        width: 100%;
+        width: 350px;
         height: 445px;
         object-fit: cover;
         border-radius: 24px; 
