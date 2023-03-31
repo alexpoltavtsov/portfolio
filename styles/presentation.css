@@ -13,8 +13,7 @@
     position: relative;
 }
 
-.presentation-img img{
-    width: 100%;
+.presentation-img-interior{
     height: 550px;
 }
 
@@ -34,7 +33,7 @@
     border-radius: 100px;
 }
 
-.presentation-img p + p{
+.presentation-img-name{
     position: absolute;
     height: 46px;
     font-weight: 400;
@@ -46,7 +45,7 @@
     color: gold;
 }
 
-.presentation-img p + p + p{
+.presentation-img-service{
     position: absolute;
     height: 39px;
     font-weight: 400;
@@ -93,8 +92,8 @@
         margin-bottom: 53px;
     }
 
-    .presentation-img img{
-        width: 350px;
+    .presentation-img-interior{
+        width: 100%;
         height: 445px;
         object-fit: cover;
         border-radius: 24px; 
@@ -108,6 +107,24 @@
         top: 40px;
         border-radius: 80px;
     }
+
+    .presentation-img-name{
+        height: 36px;
+        font-size: 28px;
+        line-height: 36px;
+        top: 333px;
+        left: 40px;
+    }
+    
+    .presentation-img-service{
+        height: 31px;
+        font-size: 24px;
+        line-height: 31px;
+        top: 374px;
+        left: 40px;
+    }
+
+
 }
 
 
@@ -122,14 +139,7 @@
         margin-bottom: 34px;
     }
 
-    .presentation-img{
-        
-        
-    }
-
-    .presentation-img img{
-          
-    }
+    
 
     .presentation-img-item {
         font-size: 13px;
@@ -138,6 +148,22 @@
         left: 33px;
         top: 30px;
         border-radius: 64px;
+    }
+
+    .presentation-img-name{
+        height: 36px;
+        font-size: 28px;
+        line-height: 36px;
+        top: 333px;
+        left: 35px;
+    }
+    
+    .presentation-img-service{
+        height: 21px;
+        font-size: 16px;
+        line-height: 21px;
+        top: 374px;
+        left: 35px;
     }
 
     
