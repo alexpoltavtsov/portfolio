@@ -1,23 +1,15 @@
-h4{
-    font-weight: 400;
-    font-size: 35px;
-    line-height: 46px;
-    letter-spacing: -0.03em;
-    color: darkviolet;
+.service{
+    padding-bottom: 113px;
 }
 
 .service-item{
     padding-bottom: 37px;
 }
 
-.service-item-bottom{
-    padding-bottom: 150px;
-}
-
-#service-subtitle{
+.service-subtitle{
     width: 403px;
     height: 92px;
-    margin: -29px 0 80px;
+    margin-bottom: 80px;
 }
 
 .service-conntent{
@@ -34,11 +26,7 @@ h4{
     display: inline-block;
     width: 520px;
     height: 72px;
-    
     line-height: 60px;
-    letter-spacing: -0.03em;
-    color: darkviolet;
-    
     margin-bottom: 55px;
 }
 

@@ -16,12 +16,13 @@
     width: 567px;  
 }
 
-#contacts-social-subtitle {
+.contacts-social-subtitle {
     font-size: 60px;
     line-height: 60px;
     padding-top: 100px;
     margin-bottom: 60px;
     color: gold;
+    letter-spacing: -0.03em;
 }
 
 .contacts-social input{
