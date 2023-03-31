@@ -64,14 +64,14 @@
 .presentation-button a{
     display: block;
     border: 1px solid darkviolet;
-    max-width: 582px;
+    width: 582px;
     height: 153px;
     background: darkviolet;
     border-radius: 10px;
-    margin-top: 80px;
     font-weight: 400;
     font-size: 30px;
     line-height: 153px;
+    margin-top: 80px;
     text-decoration: none;
     text-align: center;
     letter-spacing: -0.03em;
@@ -124,6 +124,15 @@
         left: 40px;
     }
 
+    .presentation-button a{
+        width: 460px;
+        height: 124px;
+        border-radius: 8px;
+        font-size: 24px;
+        line-height: 124px;
+        margin-top: 64px;
+    }
+
 
 }
 
@@ -166,5 +175,21 @@
         left: 35px;
     }
 
+    .presentation-button a{
+        width: 350px;
+        height: 80px;
+        border-radius: 8px;
+        font-size: 18px;
+        line-height: 80px;
+        margin-top: 60px;
+    }
+
     
+}
+
+@media (max-width: 500px){
+
+    .presentation-button a{
+        width: 100%;
+    }
 }
