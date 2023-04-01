@@ -43,6 +43,10 @@
 
 @media (max-width: 1199px){
 
+    .service{
+        padding-bottom: 110px;
+    }
+
     .service-subtitle{
         width: 326px;
         height: 74px;
@@ -72,6 +76,10 @@
 
 
 @media (max-width: 767px){
+
+    .service{
+        padding-bottom: 100px;
+    }
 
     .service-content{
         flex-wrap: wrap;

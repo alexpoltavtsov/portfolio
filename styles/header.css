@@ -1,5 +1,4 @@
 .header{
-    min-width: 1400px;
     height: 765px;
     background: linear-gradient(180deg,
      rgba(0, 0, 0, 0) 0%, 
@@ -7,7 +6,7 @@
     background-image: url('../resources/most2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 20%;
+    background-position: 81.5% 20%;
 }
 
 .header-line{
@@ -85,10 +84,43 @@ h1{
 
 @media (max-width: 1199px){
 
+
+    .header-text{
+        width: 430px;
+        height: 103px;
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    h1{  
+        width: 727px;
+        font-size: 60px;
+        line-height: 70px;
+        margin-left: 0;
+    }
 }
 
 
 
+
 @media (max-width: 767px){
+
+    .header{
+        height: 716px;
+    }
+
+    .header-text{
+        width: 310px;
+        height: 103px;
+        font-size: 15px;
+        line-height: 19px;
+        margin-bottom: 10px;
+    }
+
+    h1{  
+        width: 100%;
+        font-size: 40px;
+        line-height: 47px;
+    }
 
 }

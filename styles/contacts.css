@@ -1,7 +1,7 @@
 
 .contacts{
     box-sizing: border-box;
-    min-width: 1400px;
+    /* min-width: 1400px; */
     background: #000000;
 }
 
@@ -74,10 +74,97 @@
 
 @media (max-width: 1199px){
 
+    .contacts-box{
+        height: 484px;
+        border-radius: 20px;
+    }
+
+    .contacts-social-subtitle {
+        width: 373px;
+        font-size: 40px;
+        line-height: 40px;
+        padding-top: 50px;
+        margin-bottom: 40px;
+    }
+
+    .contacts-social input{
+        font-size: 16px;
+        line-height: 24px;
+        padding: 10px 150px 10px 24px;
+        border-radius: 675px;
+
+    }
+
+    .contacts-name{
+        margin-bottom: 17px;
+    }
+    
+    .contacts-email{
+        margin-bottom: 40px;
+    }
+
+    .contacts-btn{
+        width: 304px;
+        line-height: 21px;
+        padding: 13px;
+        font-size: 16px;
+        border-radius: 6.7px;
+    }
+
+    .contacts-img{
+        height: 484px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
 }
 
 
 
 @media (max-width: 767px){
 
+    .contacts-box{
+        height: 428px;
+        border-radius: 18px;
+    }
+
+    .contacts-social{
+        width: 100%;  
+    }
+    .contacts-social-subtitle {
+        width: 310px;
+        font-size: 35px;
+        line-height: 37px;
+    }
+
+    .contacts-social input{
+        font-size: 15px;
+        line-height: 19px;
+        padding: 10px 115px 10px 24px;
+        border-radius: 622px;
+
+    }
+
+    .contacts-name{
+        margin-bottom: 15px;
+    }
+
+    .contacts-btn{
+        line-height: 21px;
+        padding: 13px;
+        font-size: 16px;
+        border-radius: 6.7px;
+    }
+
+    .contacts-img{
+        display: none;
+    }
+}
+
+@media (max-width: 500px){
+
+    
+
+    .contacts-btn{
+        width: 100%;
+    }
 }
