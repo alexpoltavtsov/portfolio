@@ -95,6 +95,15 @@
 
 }
 
+@media (max-width: 1050px){
+
+    .footer-text{
+        width: 480px;
+        
+    
+    }
+}
+
 
 
 @media (max-width: 767px){
