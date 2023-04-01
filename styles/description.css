@@ -80,6 +80,10 @@
         margin-bottom: 106px;
     }
 
+    .description-box{
+        row-gap: 84px;
+    }
+
     .description-items{
         width: calc(50% - 5px);
         
@@ -118,6 +122,10 @@
         Height: 118px;
         font-size: 45px;
         line-height: 59px;  
+    }
+
+    .description-box{
+        row-gap: 108px;
     }
 
     .description-items{
