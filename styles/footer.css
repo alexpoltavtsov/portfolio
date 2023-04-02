@@ -4,7 +4,7 @@
     background: #000000;
 }
 
-.footer-white {
+.footer-gold {
     box-sizing: border-box;
     height: 231px;
     padding-top: 76px;
@@ -61,13 +61,12 @@
 
 .footer-text-next{
     display: block;
-    display: inline-block;
     width: 274px;
     height: 27px;
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;
-    padding-top: 54px;
+    margin-top: 54px;
     letter-spacing: -0.03em;
     color: #000000;
     opacity: 0.5;
@@ -75,7 +74,6 @@
 
 .footer-text-line{
     display: block;
-    display: inline-block;
     width: 254px;
     height: 27px;
     font-weight: 400;
@@ -93,19 +91,103 @@
 
 @media (max-width: 1199px){
 
-}
-
-@media (max-width: 1050px){
-
     .footer-text{
-        width: 480px;
-        
-    
+        height: 22px;
+        font-size: 16px;
+        line-height: 22px;
     }
+
+    .footer-list-item a{
+        font-size: 16px;
+        line-height: 22px;
+        
+    }
+
+    .footer-text-next{
+        width: 169px;
+        height: 19px;
+        font-size: 14px;
+        line-height: 19px;
+        margin-top: 43px;
+        
+    }
+    
+    .footer-text-line{
+        width: 178px;
+        height: 19px;
+        font-size: 14px;
+        line-height: 19px;
+        margin-top: 43px;
+        
+    }
+
 }
+
 
 
 
 @media (max-width: 767px){
 
+    .footer-wrap{
+        padding-top: 0;
+    }
+
+    .footer-box{
+        display: block;
+    }
+
+    .footer-text{
+        width: 250px;
+        height: 40px;
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer-gold {
+        height: 249px;
+        padding-top: 47px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        
+    }
+
+    .footer-inner{
+       flex-wrap: wrap;
+        
+        
+    }
+
+    .footer-text-next{
+        width: 400px;
+        height: 18px;
+        font-size: 13px;
+        line-height: 18px;
+        
+    }
+    
+    .footer-text-line{
+        width: 400px;
+        height: 18px;
+        font-size:13 px;
+        line-height: 18px;
+        margin-top: 12px;
+        
+    }
+
+    
+}
+
+
+@media (max-width: 500px){
+
+    .footer-text-next{
+        width: 300px;
+            
+    }
+    
+    .footer-text-line{
+        width: 300px;
+           
+    }
 }
