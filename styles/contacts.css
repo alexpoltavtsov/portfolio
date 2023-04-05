@@ -85,14 +85,15 @@
         line-height: 40px;
         padding-top: 50px;
         margin-bottom: 40px;
+        margin-left: 35px;
     }
 
     .contacts-social input{
         font-size: 16px;
-        line-height: 24px;
-        padding: 10px 150px 10px 24px;
+        line-height: 21px;
+        padding: 10px 164px 10px 24px;
         border-radius: 675px;
-
+        margin-left: 35px;
     }
 
     .contacts-name{
@@ -109,6 +110,7 @@
         padding: 13px;
         font-size: 16px;
         border-radius: 6.7px;
+        margin-left: 35px;
     }
 
     .contacts-img{
@@ -134,14 +136,15 @@
         width: 310px;
         font-size: 35px;
         line-height: 37px;
+        margin-left: 0
     }
 
     .contacts-social input{
         font-size: 15px;
-        line-height: 19px;
-        padding: 10px 115px 10px 24px;
+        line-height: 17px;
+        padding: 10px 141px 10px 24px;
         border-radius: 622px;
-
+        margin-left: 0
     }
 
     .contacts-name{
@@ -166,5 +169,6 @@
 
     .contacts-btn{
         width: 100%;
+        margin-left: 0;
     }
 }

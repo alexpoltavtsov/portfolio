@@ -96,7 +96,8 @@
         width: 100%;
         height: 445px;
         object-fit: cover;
-        border-radius: 24px; 
+        border-radius: 24px;
+        margin-bottom: -3px; 
     }
 
     .presentation-img-item {
@@ -152,7 +153,9 @@
         line-height: 39px;  
     }
 
-    
+    .presentation-img-interior{
+        height: 450px;  
+    }
 
     .presentation-img-item {
         font-size: 13px;
@@ -180,7 +183,7 @@
     }
 
     .presentation-button{
-        padding-bottom: 100px;
+        padding-bottom: 98px;
     }
 
     .presentation-button a{

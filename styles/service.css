@@ -45,13 +45,18 @@
 @media (max-width: 1199px){
 
     .service{
-        padding-bottom: 110px;
+        padding-bottom: 80px;
+    }
+
+    .service-item{
+        padding-bottom: 29px;
     }
 
     .service-subtitle{
         width: 326px;
         height: 74px;
         margin-bottom: 60px;
+        margin-top: 10px;
     }
     .service-img{
         width: 100%;
@@ -63,12 +68,12 @@
     }
 
     .service-content-subtitle{
-        width: calc(50%);
+        width: calc(50% - 2px);
         line-height: 49px;
     }
 
     .service-content p{
-        width: calc(50%);
+        width: calc(50% - 2px);
         font-size: 18px;
         line-height: 23px;
         
@@ -83,6 +88,14 @@
         padding-bottom: 100px;
     }
 
+    .service-subtitle{
+        margin-bottom: 58px;
+    }
+
+    .service-item {
+        padding-bottom: 29px;
+    }
+
     .service-content{
         height: auto;
         flex-wrap: wrap;
@@ -93,6 +106,9 @@
         width: 100%;
         line-height: 39px;
         font-size: 35px;
+        margin-top: -2px;
+        margin-left: 3px;
+        margin-bottom: 15px;
     }
    
 

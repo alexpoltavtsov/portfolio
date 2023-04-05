@@ -91,15 +91,29 @@
 
 @media (max-width: 1199px){
 
+    .footer-wrap {
+        padding-top: 6px;
+    }
+
+    .footer-gold {
+        box-sizing: border-box;
+        height: 231px;
+        padding-top: 51px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+
     .footer-text{
         height: 22px;
         font-size: 16px;
         line-height: 22px;
+        margin-left: 25px;
     }
 
     .footer-list-item a{
         font-size: 16px;
         line-height: 22px;
+        margin-right: 25px;
         
     }
 
@@ -109,7 +123,7 @@
         font-size: 14px;
         line-height: 19px;
         margin-top: 43px;
-        
+        margin-left: 25px;
     }
     
     .footer-text-line{
@@ -118,7 +132,7 @@
         font-size: 14px;
         line-height: 19px;
         margin-top: 43px;
-        
+        margin-right: 45px;
     }
 
 }
@@ -141,7 +155,8 @@
         height: 40px;
         font-size: 15px;
         line-height: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 18px;
+        margin-left: 0;
     }
 
     .footer-gold {
@@ -153,9 +168,7 @@
     }
 
     .footer-inner{
-       flex-wrap: wrap;
-        
-        
+       flex-wrap: wrap;  
     }
 
     .footer-text-next{
@@ -183,11 +196,15 @@
 
     .footer-text-next{
         width: 300px;
-            
+        margin-top: 37px;
+        margin-left: 0;
     }
     
     .footer-text-line{
-        width: 300px;
-           
+        width: 300px;   
+    }
+
+    .footer-list-item li + li{
+        margin-left: -13px;
     }
 }
