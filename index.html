@@ -3,217 +3,270 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="styles/reset.css" />
-  <link rel="icon" href="resources/favicon.png" type="image/png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="icon" href="resources/favicon.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="styles/styles.css" />
   <title>portfolio</title>
 </head>
 
 <body>
-  <!-- <header class="header">
+  <header class="header">
     <div class="container">
-      <div class="header-line">
+      <div class="header-inner">
         <div class="logo">
           <p class="name-logo">POLTAVTSOV</p>
         </div>
-        <nav class="menu">
+        <nav class="nav">
           <ul class="menu-list">
-            <li><a href="#presentation-subtitle-wrap">портфолио</a></li>
-            <li><a href="#description-subtitle-wrap">компетенции</a></li>
-            <li><a href="#service-subtitle-wrap">услуги</a></li>
-            <li><a href="#contacts-social-subtitle-wrap">контакты</a></li>
+            <li>
+              <a class="nav__link" href="#presentation-subtitle-wrap">портфолио</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#description-subtitle-wrap">компетенции</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#service-subtitle-wrap">услуги</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#contacts-social-subtitle-wrap">контакты</a>
+            </li>
           </ul>
         </nav>
-
+        <div class="js-burger-btn burger-btn"></div>
       </div>
+
+      <div class="js-burger burger">
+        <div class="js-burger__content burger__content">
+          <div class="logo burger-logo">
+            <p class="name-logo burger-name-logo">POLTAVTSOV</p>
+          </div>
+          <nav class="burger-nav">
+            <a class="burger-nav__link" href="#presentation-subtitle-wrap">портфолио</a>
+            <a class="burger-nav__link" href="#description-subtitle-wrap">компетенции</a>
+            <a class="burger-nav__link" href="#service-subtitle-wrap">услуги</a>
+            <a class="burger-nav__link" href="#contacts-social-subtitle-wrap">контакты</a>
+          </nav>
+          <h5 class="burger-subtitle">для связи:</h5>
+          <div class="burger-contacts" >
+            <a class="burger-contact" href="https://t.me/a_poltavtsov" target="_blank">telegram</a>
+            <a class="burger-contact" href="https://mail.ru/" target="_blank">mail</a>
+            <a class="burger-contact" href="https://vk.com/feed" target="_blank">vk</a>
+          </div>
+        </div> 
+      </div>
+
       <p class="header-text">
-        Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые повышают престиж компании и позволяют
-        выделиться на фоне конкурентов
+        Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые
+        повышают престиж компании и позволяют выделиться на фоне конкурентов
       </p>
       <h1>Привет, я Александр — фронтенд разработчик и дизайнер сайтов</h1>
     </div>
-  </header> -->
+  </header>
 
-  <!-- <main> -->
-
-  <section class="presentation">
-    <div class="container">
-      <div id="presentation-subtitle-wrap">
-        <h2 class="presentation-subtitle">Самые свежие проекты</h2>
-      </div>
-      <div class="presentation-img">
-        <picture>
-          <source media="(max-width: 500px)" srcset="resources/metrica-mobile.png">
-          <img class="presentation-img-interior" src="resources/metrica.png" alt="фото сайта метрика">
-        </picture>
-        <p class="presentation-img-item">дизайн интерьера</p>
-        <p class="presentation-img-name">Метрика</p>
-        <p class="presentation-img-service">верстка, настройка</p>
-      </div>
-      <div class="presentation-img">
-        <picture>
-          <source media="(max-width: 500px)" srcset="resources/nothing-mobile.png">
-          <img class="presentation-img-interior" src="resources/nothing.png" alt="фото сайта наушников">
-        </picture>
-        <p class="presentation-img-item">презентация продукта</p>
-        <p class="presentation-img-name">Nothing </p>
-        <p class="presentation-img-service">верстка, настройка</p>
-      </div>
-      <div class="presentation-img">
-        <picture>
-          <source media="(max-width: 500px)" srcset="resources/toptrip-mobile.png">
-          <img class="presentation-img-interior" src="resources/toptrip.png" alt="фото сайта путешествий">
-        </picture>
-        <p class="presentation-img-item">заказ путешествий</p>
-        <p class="presentation-img-name">TOPTRIP</p>
-        <p class="presentation-img-service">верстка</p>
-      </div>
-      <div class="presentation-button">
-        <a href="#">Смотреть все проекты</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="description">
-    <div class="container">
-      <div id="description-subtitle-wrap">
-        <h2 class="description-subtitle">Мои компетенции</h2>
-      </div>
-      <div class="description-box">
-        <div class="description-items">
-          <h3 class="description-item">HTML и CSS</h3>
-          <div class="description-text">
-            <p>
-              это основа фронтенд разработки. Умение создавать и правильно структурировать HTML-документы, а также
-              применять стили к этим документам на CSS, является обязательным навыком для каждого фронтенд
-              разработчика.
-            </p>
-          </div>
+  <main>
+    <section class="presentation">
+      <div class="container">
+        <div id="presentation-subtitle-wrap">
+          <h2 class="presentation-subtitle">Самые свежие проекты</h2>
         </div>
-        <div class="description-items">
-          <h3 class="description-item java">JavaScript</h3>
-          <div class="description-text">
-            <p>
-              это язык программирования, который используется для создания динамического и интерактивного
-              пользовательского интерфейса. Хороший фронтенд разработчик должен быть знаком с основами JavaScript,
-              включая
-              работу с DOM-деревом, асинхронными запросами и манипуляцией данными на стороне клиента.
-            </p>
-          </div>
-        </div>
-        <div class="description-items">
-          <h3 class="description-item libraries">Работа с библиотеками и фреймверками</h3>
-          <div class="description-text">
-            <p>
-              фронтенд разработчики должны быть знакомы с различными библиотеками и фреймворками, такими как React,
-              Angular, Vue и другими. Умение использовать готовые решения, адаптировать их под нужды проекта и
-              расширять
-              их функциональность, является очень важным навыком.
-            </p>
-          </div>
-        </div>
-        <div class="description-items">
-          <h3 class="description-item mobile">Разработка для мобильных устройств и адаптивная верстка</h3>
-          <div class="description-text">
-            <p>
-              мобильное приложение — это удобный способ работы с корпоративной системой вдали от десктопа.
-              Однако адаптивная вёрстка основного веб-приложения зачастую даёт такой же UX-эффект,
-              а её разработка, поддержка и внедрение оказываются проще и дешевле.
-              Совокупность преимуществ и недостатков этих двух решений стирает между ними границы.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="service">
-    <div class="container">
-      <div id="service-subtitle-wrap">
-        <h3 class="service-subtitle">Помогаю реализовать широкий спектр задач</h3>
-      </div>
-      <div class="service-item">
-        <div class="service-inner-img">
+        <div class="presentation-img">
           <picture>
-            <source media="(max-width: 500px)" srcset="resources/service-img1-mobile.png">
-            <img class="service-img" src="resources/service-img1.png" alt="Рекламное изображение">
+            <source media="(max-width: 500px)" srcset="resources/metrica-mobile.png" />
+            <img class="presentation-img-interior" src="resources/metrica.png" alt="фото сайта метрика" />
           </picture>
+          <p class="presentation-img-item">дизайн интерьера</p>
+          <p class="presentation-img-name">Метрика</p>
+          <p class="presentation-img-service">верстка, настройка</p>
         </div>
-        <div class="service-content">
-          <h2 class="service-content-subtitle">Разработка<br>сайта под ключ</h2>
-          <p>
-            Это создание дизайн веб-сайтов, созданный для удобства пользователя и решения бизнес-задач<br>
-            Сайты должны быть понятными и удобными, ведь чем понятнее сайт, тем быстрее пользователь совершит целевое
-            действие
-          </p>
-        </div>
-      </div>
-      <div class="service-item">
-        <div class="service-inner-img">
+        <div class="presentation-img">
           <picture>
-            <source media="(max-width: 500px)" srcset="resources/service-img2-mobile.png">
-            <img class="service-img" src="resources/service-img2.png" alt="Рекламное изображение">
+            <source media="(max-width: 500px)" srcset="resources/nothing-mobile.png" />
+            <img class="presentation-img-interior" src="resources/nothing.png" alt="фото сайта наушников" />
           </picture>
+          <p class="presentation-img-item">презентация продукта</p>
+          <p class="presentation-img-name">Nothing</p>
+          <p class="presentation-img-service">верстка, настройка</p>
         </div>
-        <div class="service-content">
-          <h2 class="service-content-subtitle">Верстка сайтов</h2>
-          <p>
-            Это процесс создания HTML-документов и применения к ним стилей на CSS. Фронтенд разработчик может помочь
-            создать привлекательный и удобный интерфейс для вашего сайта
-          </p>
-        </div>
-      </div>
-      <div class="service-item">
-        <div class="service-inner-img">
+        <div class="presentation-img">
           <picture>
-            <source media="(max-width: 500px)" srcset="resources/service-img3-mobile.png">
-            <img class="service-img" src="resources/service-img3.png" alt="Рекламное изображение">
+            <source media="(max-width: 500px)" srcset="resources/toptrip-mobile.png" />
+            <img class="presentation-img-interior" src="resources/toptrip.png" alt="фото сайта путешествий" />
           </picture>
+          <p class="presentation-img-item">заказ путешествий</p>
+          <p class="presentation-img-name">TOPTRIP</p>
+          <p class="presentation-img-service">верстка</p>
         </div>
-        <div class="service-content">
-          <h2 class="service-content-subtitle">Разработка<br>мобильного<br>интерфейса</h2>
-          <p>
-            Это процесс создания интерактивных элементов на странице с помощью JavaScript. Фронтенд разработчик может
-            помочь создать динамический и удобный пользовательский интерфейс для вашего сайта или приложения.
-          </p>
+        <div class="presentation-button">
+          <a href="#">Смотреть все проекты</a>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="contacts">
+    </section>
+
+    <section class="description">
+      <div class="container">
+        <div id="description-subtitle-wrap">
+          <h2 class="description-subtitle">Мои компетенции</h2>
+        </div>
+        <div class="description-box">
+          <div class="description-items">
+            <h3 class="description-item">HTML и CSS</h3>
+            <div class="description-text">
+              <p>
+                это основа фронтенд разработки. Умение создавать и правильно
+                структурировать HTML-документы, а также применять стили к этим
+                документам на CSS, является обязательным навыком для каждого
+                фронтенд разработчика.
+              </p>
+            </div>
+          </div>
+          <div class="description-items">
+            <h3 class="description-item java">JavaScript</h3>
+            <div class="description-text">
+              <p>
+                это язык программирования, который используется для создания
+                динамического и интерактивного пользовательского интерфейса.
+                Хороший фронтенд разработчик должен быть знаком с основами
+                JavaScript, включая работу с DOM-деревом, асинхронными
+                запросами и манипуляцией данными на стороне клиента.
+              </p>
+            </div>
+          </div>
+          <div class="description-items">
+            <h3 class="description-item libraries">
+              Работа с библиотеками и фреймверками
+            </h3>
+            <div class="description-text">
+              <p>
+                фронтенд разработчики должны быть знакомы с различными
+                библиотеками и фреймворками, такими как React, Angular, Vue и
+                другими. Умение использовать готовые решения, адаптировать их
+                под нужды проекта и расширять их функциональность, является
+                очень важным навыком.
+              </p>
+            </div>
+          </div>
+          <div class="description-items">
+            <h3 class="description-item mobile">
+              Разработка для мобильных устройств и адаптивная верстка
+            </h3>
+            <div class="description-text">
+              <p>
+                мобильное приложение — это удобный способ работы с
+                корпоративной системой вдали от десктопа. Однако адаптивная
+                вёрстка основного веб-приложения зачастую даёт такой же
+                UX-эффект, а её разработка, поддержка и внедрение оказываются
+                проще и дешевле. Совокупность преимуществ и недостатков этих
+                двух решений стирает между ними границы.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="service">
+      <div class="container">
+        <div id="service-subtitle-wrap">
+          <h3 class="service-subtitle">
+            Помогаю реализовать широкий спектр задач
+          </h3>
+        </div>
+        <div class="service-item">
+          <div class="service-inner-img">
+            <picture>
+              <source media="(max-width: 500px)" srcset="resources/service-img1-mobile.png" />
+              <img class="service-img" src="resources/service-img1.png" alt="Рекламное изображение" />
+            </picture>
+          </div>
+          <div class="service-content">
+            <h2 class="service-content-subtitle">
+              Разработка<br />сайта под ключ
+            </h2>
+            <p>
+              Это создание дизайн веб-сайтов, созданный для удобства
+              пользователя и решения бизнес-задач<br />
+              Сайты должны быть понятными и удобными, ведь чем понятнее сайт,
+              тем быстрее пользователь совершит целевое действие
+            </p>
+          </div>
+        </div>
+        <div class="service-item">
+          <div class="service-inner-img">
+            <picture>
+              <source media="(max-width: 500px)" srcset="resources/service-img2-mobile.png" />
+              <img class="service-img" src="resources/service-img2.png" alt="Рекламное изображение" />
+            </picture>
+          </div>
+          <div class="service-content">
+            <h2 class="service-content-subtitle">Верстка сайтов</h2>
+            <p>
+              Это процесс создания HTML-документов и применения к ним стилей
+              на CSS. Фронтенд разработчик может помочь создать
+              привлекательный и удобный интерфейс для вашего сайта
+            </p>
+          </div>
+        </div>
+        <div class="service-item">
+          <div class="service-inner-img">
+            <picture>
+              <source media="(max-width: 500px)" srcset="resources/service-img3-mobile.png" />
+              <img class="service-img" src="resources/service-img3.png" alt="Рекламное изображение" />
+            </picture>
+          </div>
+          <div class="service-content">
+            <h2 class="service-content-subtitle">
+              Разработка<br />мобильного<br />интерфейса
+            </h2>
+            <p>
+              Это процесс создания интерактивных элементов на странице с
+              помощью JavaScript. Фронтенд разработчик может помочь создать
+              динамический и удобный пользовательский интерфейс для вашего
+              сайта или приложения.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contacts">
       <div class="contacts-box">
         <div class="container">
           <form class="contacts-social" action="#">
             <div id="contacts-social-subtitle-wrap">
-              <h4 class="contacts-social-subtitle">Для связи со мной заполните простую форму</h4>
+              <h4 class="contacts-social-subtitle">
+                Для связи со мной заполните простую форму
+              </h4>
             </div>
-            <input class="contacts-name" type="name" placeholder="Имя Фамилия">
-            <input class="contacts-email" type="email" placeholder="example@mail.com">
+            <input class="contacts-name" type="name" placeholder="Имя Фамилия" />
+            <input class="contacts-email" type="email" placeholder="example@mail.com" />
             <button class="contacts-btn" type="submit">Отправить</button>
           </form>
-          <img class="contacts-img" src="resources/specialist-it2.png" alt="Изображение человека за компьютером">
+          <img class="contacts-img" src="resources/specialist-it2.png" alt="Изображение человека за компьютером" />
         </div>
       </div>
     </section>
-  <!-- </main> -->
+  </main>
   <footer class="footer">
     <div class="footer-wrap">
       <div class="footer-gold">
         <div class="container">
           <div class="footer-box">
-            <p class="footer-text">Портфолио фронтенд-разработчика Александра Полтавцова</p>
+            <p class="footer-text">
+              Портфолио фронтенд-разработчика Александра Полтавцова
+            </p>
             <ul class="footer-list-item">
               <li><a href="https://mail.ru/" target="_blank">mail</a></li>
-              <li><a href="https://t.me/AleksandrPoltavtsov" target="_blank">telegram</a></li>
+              <li>
+                <a href="https://t.me/AleksandrPoltavtsov" target="_blank">telegram</a>
+              </li>
               <li><a href="https://vk.com/feed" target="_blank">vk</a></li>
             </ul>
           </div>
@@ -225,7 +278,7 @@
       </div>
     </div>
   </footer>
-
+  <script src="burger.js"></script>
 </body>
 
 </html>
