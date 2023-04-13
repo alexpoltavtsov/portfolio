@@ -214,19 +214,19 @@ h1{
 
     .burger-btn{
         position: absolute;
-        top: 33px;
+        top: 35px;
         right: 28px;
         z-index: 10;
         display: block;
-        width: 42px;
-        height: 28px;
-        background: url('../resources/burger-tablet.png');
+        width: 40px;
+        height: 40px;
+        background: url('../resources/burger-button.png');
         background-repeat: no-repeat;
         /* background-color: red; */
     }
 
     .burger-btn_open{
-        background: url('../resources/cross-mobile.png');
+        background: url('../resources/cross-button.png');
         background-repeat: no-repeat;
         background-position: 50% 50%;
         background-color: #000000;
@@ -242,7 +242,7 @@ h1{
     }
 
     .burger-btn{
-        top: 22px;
+        top: 25px;
         right: 15px;
     }
 
