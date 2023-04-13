@@ -161,3 +161,10 @@
     }
     
 }
+
+@media (max-width: 370px){
+
+    .description-items .libraries {
+        height: 108px;
+    }
+}
