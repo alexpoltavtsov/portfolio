@@ -92,30 +92,41 @@ h1{
 .burger{
     position: fixed;
     top: 0;
-    /* left: 0; */
-    right: -100%;
+    right: 0;
     width: 100%;
     height: 100%;
+    z-index: 1000;
+    visibility: hidden;
     display: flex;
     justify-content: end;
+    align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
-    /* opacity: 0;
-    visibility: hidden; */
-    transition: all 0.3s ease;
+}
+
+.burger-btn{
+    display: none;
+    z-index: 2000;
 }
 
 .burger_open{
-    /* opacity: 1;
-    visibility: visible; */
-    right: 0;
+    visibility: visible;
 }
 
 .burger__content{
-    width: 95%;
+    width: 300px;
     height: 100%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
     padding: 37px;
     padding-top: 73px;
+    transition: transform 0.3s linear;
+    transform: translateX(100%);
     background-color: #000000;
+}
+
+.burger_open .burger__content{
+    transform: translateX(0);
 }
 
 .burger-logo{
@@ -213,19 +224,23 @@ h1{
     }
 
     .burger-btn{
-        position: absolute;
-        top: 35px;
-        right: 28px;
-        z-index: 10;
+        position: relative;
+        margin-top: 7px;
+        margin-right: 28px;
         display: block;
         width: 40px;
         height: 40px;
         background: url('../resources/burger-button.png');
         background-repeat: no-repeat;
-        /* background-color: red; */
+        border: none;
     }
 
     .burger-btn_open{
+        position: absolute;
+        top: 26px;
+        right: 0;
+        width: 40px;
+        height: 40px;
         background: url('../resources/cross-button.png');
         background-repeat: no-repeat;
         background-position: 50% 50%;
@@ -242,8 +257,13 @@ h1{
     }
 
     .burger-btn{
-        top: 25px;
-        right: 15px;
+        margin-top: 7px;
+        margin-right: 28px;
+    }
+
+    .burger-btn_open{
+        top: 17px;
+        right: 0;
     }
 
     h1{  
