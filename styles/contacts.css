@@ -41,10 +41,12 @@
 
 .contacts-name{
     margin-bottom: 26px;
+    outline: none;
 }
 
 .contacts-email{
     margin-bottom: 60px;
+    outline: none;
 }
 
 .contacts-btn{
@@ -98,6 +100,7 @@
 
     .contacts-name{
         margin-bottom: 17px;
+        
     }
     
     .contacts-email{
@@ -120,6 +123,13 @@
     }
 }
 
+
+
+@media (max-width: 830px){
+    .contacts-img{
+        display: none;
+    }
+}
 
 
 @media (max-width: 767px){
