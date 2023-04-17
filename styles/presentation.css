@@ -11,10 +11,16 @@
 
 .presentation-img{
     position: relative;
+    border-radius: 30px;
+}
+
+.presentation-img:hover{
+    border: 2px solid darkviolet;
 }
 
 .presentation-img-interior{
     height: 548px;
+    width: 100%;
 }
 
 .presentation-img-item {
@@ -90,6 +96,10 @@
     
     .presentation-subtitle{
         margin-bottom: 53px;
+    }
+
+    .presentation-img{
+        border-radius: 24px;
     }
 
     .presentation-img-interior{
