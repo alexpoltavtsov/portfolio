@@ -23,19 +23,21 @@
 }
 
 .logo{
+    /* position: relative; */
     width: 168px;
     height: 39px;
     margin: 8px 0;
     background: gold;
     border-radius: 100px;
-    position: relative;
+    
 }
 
 .name-logo{
-    position: absolute;
+    /* position: absolute; */
     width: 109px;
-    left: 9px;
-    top: 7px;
+    margin-left: 9px;
+    margin-top: 7px;
+    margin-bottom: 7px;
     font-size: 25px;
     font-weight: 700; 
     color: darkviolet;
@@ -115,11 +117,11 @@ h1{
 .burger__content{
     width: 300px;
     height: 100%;
-    overflow-y: auto;
     display: flex;
     flex-direction: column;
     padding: 37px;
     padding-top: 73px;
+    overflow-y: auto;
     transition: transform 0.3s linear;
     transform: translateX(100%);
     background-color: #000000;
