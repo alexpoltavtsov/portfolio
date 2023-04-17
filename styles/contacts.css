@@ -62,6 +62,7 @@
     color: #000000;
     border-radius: 10px;
     cursor: pointer;
+    border: none;
 }
 
 .contacts-img{
@@ -166,6 +167,7 @@
         padding: 13px;
         font-size: 16px;
         border-radius: 6.7px;
+        margin-left: 0;
     }
 
     .contacts-img{
