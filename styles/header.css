@@ -10,7 +10,7 @@
     background-image: url('../resources/IMG20220724122018.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 20%;
+    background-position: 50% 27%;
 }
 
 .header-container{
@@ -21,7 +21,7 @@
     /* position: relative; */
     height: 55px;
     padding-top: 27px;
-    margin-bottom: 279px;
+    margin-bottom: 250px;
     display: flex;
     justify-content: space-between;   
 }
@@ -73,13 +73,13 @@
 
 .header-text{
     position: absolute;
-    top: 455px;
+    top: 370px;
     left: -150px;
-    width: 430px;
-    height: 103px;
+    width: 500px;
+    /* height: 103px; */
     font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
+    font-size: 32px;
+    line-height: 32px;
     margin-bottom: 30px;
     letter-spacing: -0.03em;
     color:white;
@@ -200,13 +200,46 @@ h1{
 }
 
 
+
+
+@media (max-width: 2700px){
+    .header{
+        background-position: 50% 25%;
+    }
+}
+
+@media (max-width: 2400px){
+    .header{
+        background-position: 50% 23%;
+    }
+}
+
+@media (max-width: 2000px){
+    .header{
+        background-position: 50% 21%;
+    }
+}
+
+@media (max-width: 1850px){
+    .header{
+        background-position: 50% 19%;
+    }
+}
+
+
 @media (max-width: 1700px){
+
+    /* .header{
+        background-position: 50% 20%;
+    } */
 
 
     .header-text{
         top: 350px;
         left: -100px;
         width: 430px;
+        font-size: 20px;
+        line-height: 26px;
         
         
     }
