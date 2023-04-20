@@ -13,8 +13,12 @@
     background-position: 50% 20%;
 }
 
-.header-inner{
+.header-container{
     position: relative;
+}
+
+.header-inner{
+    /* position: relative; */
     height: 55px;
     padding-top: 27px;
     margin-bottom: 279px;
@@ -68,6 +72,9 @@
 }
 
 .header-text{
+    position: absolute;
+    top: 455px;
+    left: -150px;
     width: 430px;
     height: 103px;
     font-weight: 400;
@@ -84,8 +91,11 @@
 }
 
 h1{
+    position: absolute;
+    top: 600px;
+    left: -150px;
     height: 205px;
-    width: 970px;
+    width: 1500px;
     font-weight: 400;
     font-size: 80px;
     line-height: 70px;
@@ -190,19 +200,61 @@ h1{
 }
 
 
+@media (max-width: 1700px){
+
+
+    .header-text{
+        top: 350px;
+        left: -100px;
+        width: 430px;
+        
+        
+    }
+
+    h1{ 
+        top: 500px;
+        left: -100px;
+        width: 970px;
+        
+    }
+}
+
+@media (max-width: 1500px){
+
+
+    .header-text{
+        top: 350px;
+        left: 0;
+        width: 430px;
+        
+        
+    }
+
+    h1{ 
+        top: 500px;
+        left: 0;
+        width: 970px;
+        
+    }
+}
+
+
 
 @media (max-width: 1199px){
 
 
     .header-text{
+        position: static;
         width: 430px;
         height: 103px;
         font-size: 20px;
         line-height: 26px;
     }
 
-    h1{  
+    h1{ 
+        position: static;
         width: 727px;
+        height: auto;
         font-size: 60px;
         line-height: 70px;
         margin-left: 0;
@@ -229,7 +281,7 @@ h1{
     h1{  
         width: 100%;
         font-size: 40px;
-        line-height: 47px;
+        line-height: 40px;
     }
 
     .nav{
@@ -282,6 +334,7 @@ h1{
 
     .header-inner{
         padding-top: 15px;
+        margin-bottom: 240px;
           
     }
 
